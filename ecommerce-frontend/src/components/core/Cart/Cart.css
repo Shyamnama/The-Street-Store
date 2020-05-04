@@ -26,11 +26,12 @@
 
 .btn-block {
   width: 100%;
-  background-color: #2a2a72;
-  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  background-color: #06bcfb;
+  background-image: linear-gradient(315deg, #06bcfb 0%, #4884ee 74%);
   font-family: 'Montsserrat', sans-serif;
   font-size: 12px;
   transition: 0.2s ease;
+  color: #f0e8e8;
 }
 
 .cartTotal {
