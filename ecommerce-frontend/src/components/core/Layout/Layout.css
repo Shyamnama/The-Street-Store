@@ -1,0 +1,81 @@
+.head2 {
+  font-family: 'Bangers', cursive;
+  font-weight: 800;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 60px;
+  color: #3d3c3c;
+}
+
+.para {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 40px;
+  /* letter-spacing: 1px; */
+  color: #3d3d3dfb;
+  font-weight: bold;
+}
+
+/* ----------------------------------FOOTER---------------------------------------- */
+
+.foot {
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+}
+
+.footer-copyright {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+}
+
+.foot-title {
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.foot-para {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+}
+
+.links {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #e6e6e6;
+}
+
+.links:hover {
+  color: #c4ff01;
+}
+
+.social-icons li {
+  display: inline-block;
+  padding: 0px 6px 15px 6px;
+}
+
+.social:hover {
+  transform: scale(1.2);
+  transition: 0.3s ease;
+}
+
+.fb {
+  background-color: #3b5998;
+}
+
+.insta {
+  background-color: #fafae8;
+}
+
+.goog {
+  background-color: #db4a39;
+}
+
+.tweet {
+  background-color: #00acee;
+}
+
+.pint {
+  background-color: #c8232c;
+}

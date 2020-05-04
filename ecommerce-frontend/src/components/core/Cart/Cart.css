@@ -1,0 +1,61 @@
+.continue {
+  font-family: 'Comfortaa', cursive;
+  font-size: 13px;
+  font-weight: 600;
+  color: #990c6f;
+}
+
+.continue:hover {
+  color: #730794;
+}
+
+.cart {
+  padding-top: 2px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cart-badge {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.singlePro {
+  margin: 0px 85px;
+}
+
+.btn-block {
+  width: 100%;
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  font-family: 'Montsserrat', sans-serif;
+  font-size: 12px;
+  transition: 0.2s ease;
+}
+
+.cartTotal {
+  font-size: 25px;
+  font-family: 'Montsserrat', sans-serif;
+  color: #3f4e53;
+}
+
+.orderHead {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 35px;
+  color: #3f4e53;
+  letter-spacing: 3px;
+}
+
+.mb-4 {
+  margin-bottom: 30px;
+}
+
+.delBtn {
+  margin-left: 10px;
+  margin-top: -6px;
+}
+
+.upBtn {
+  margin-left: 10px;
+  margin-top: -6px;
+}

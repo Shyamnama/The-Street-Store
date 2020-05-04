@@ -1,0 +1,176 @@
+.card {
+  border-radius: 10px;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #586870 74%);
+}
+
+.product-para {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-left: 20px;
+  font-size: 14px;
+  color: #dadada;
+  font-weight: 600;
+  min-width: 5rem;
+}
+
+.card .card-content {
+  padding: 0px;
+}
+
+.card .card-title {
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 800;
+  text-align: center;
+  color: #dbdfdf;
+}
+
+.addCart {
+  font-family: 'Montserrat', sans-serif;
+  color: #8d8d8d;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 10px 0px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 2px;
+}
+
+.addCart:hover {
+  background-color: #00b712;
+  background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+  color: #292828;
+  cursor: pointer;
+  letter-spacing: 2px;
+  border: none;
+  transition: 0.3s ease;
+  outline: none;
+}
+
+.viewProduct {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #8d8d8d;
+  font-weight: 800;
+  font-size: 12px;
+  padding: 15px 0px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 0 0 10px 10px;
+}
+
+.viewProduct:hover {
+  background-color: #00b712;
+  background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+  color: #292828;
+  cursor: pointer;
+  letter-spacing: 2px;
+  border: none;
+  transition: 0.3s ease;
+  border-radius: 0 0 10px 10px;
+  outline: none;
+}
+
+.badge {
+  font-family: 'Kanit', sans-serif;
+  color: #a5a3a1;
+  min-width: 5rem;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.quantity {
+  padding: 0 30px;
+}
+
+.quan2 {
+  padding-top: 10px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.qn {
+  font-family: 'Comfortaa', cursive;
+  color: #a0a0a0;
+}
+
+.num {
+  margin-top: -10px;
+}
+
+.cate {
+  padding-top: 2px;
+  font-family: 'Montserrat', sans-serif;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.stock {
+  text-align: left;
+}
+
+.star-rating {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.star {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  background-color: #a0a0a0;
+  -webkit-clip-path: polygon(
+    50% 0%,
+    63% 38%,
+    100% 38%,
+    69% 59%,
+    82% 100%,
+    50% 75%,
+    18% 100%,
+    31% 59%,
+    0% 38%,
+    37% 38%
+  );
+  clip-path: polygon(
+    50% 0%,
+    63% 38%,
+    100% 38%,
+    69% 59%,
+    82% 100%,
+    50% 75%,
+    18% 100%,
+    31% 59%,
+    0% 38%,
+    37% 38%
+  );
+}
+
+.star.selected {
+  background-color: #ffb301;
+}
+
+.grade {
+  padding-top: 5px;
+  font-family: 'Montserrat', sans-serif;
+  color: #6c6c6d;
+  font-size: 13px;
+  flex-basis: 100%;
+  /* text-align: right; */
+}
