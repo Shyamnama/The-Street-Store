@@ -34,8 +34,8 @@ body {
 }
 
 .collection-header {
-  background-color: #ff9762;
-  background-image: linear-gradient(315deg, #ff9762 0%, #fd7f77 74%);
+  background-color: #06bcfb;
+  background-image: linear-gradient(315deg, #06bcfb 0%, #4884ee 74%);
 }
 
 .collection-item {
@@ -109,6 +109,15 @@ option {
   color: #353535;
 }
 
+.orderId {
+  margin-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: #f0f0f0;
+}
+
 .totalPro {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -157,7 +166,25 @@ option {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 25px;
-  color: #f1f1f1;
+  color: #353535;
   text-align: center;
   text-transform: uppercase;
+}
+
+.signinInput input:focus + label {
+  color: #1976d2 !important;
+}
+
+.signinInput input:focus {
+  border-bottom: 1px solid #1976d2 !important;
+  box-shadow: 0 1px 0 0 #1976d2 !important;
+}
+
+.signupInput input:focus + label {
+  color: #1976d2 !important;
+}
+
+.signupInput input:focus {
+  border-bottom: 1px solid #1976d2 !important;
+  box-shadow: 0 1px 0 0 #1976d2 !important;
 }

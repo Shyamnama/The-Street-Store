@@ -31,7 +31,7 @@ const Dashboard = () => {
   const userLinks = () => {
     return (
       <ul className="collection with-header">
-        <li className=" teal grey-text text-darken-3 collection-header">
+        <li className=" teal grey-text text-lighten-3 collection-header">
           <h5>
             <i className="small material-icons right">link</i>
             User Links
@@ -54,7 +54,7 @@ const Dashboard = () => {
   const userInfo = () => {
     return (
       <ul className="collection with-header">
-        <li className=" teal grey-text text-darken-3 collection-header">
+        <li className=" teal grey-text text-lighten-3 collection-header">
           <h5>
             User Information
             <i className="small material-icons left">account_circle</i>
@@ -80,7 +80,7 @@ const Dashboard = () => {
     return (
       <ul class="collection with-header">
         <li class=" collection-header">
-          <h5 className="grey-text text-darken-4">
+          <h5 className="grey-text text-lighten-4">
             Purchase History
             <i className="small material-icons left">history</i>
           </h5>

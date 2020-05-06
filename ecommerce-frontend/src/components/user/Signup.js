@@ -40,13 +40,13 @@ const Signup = () => {
   const signUpForm = () => {
     return (
       <div className="valign-wrapper row login-box">
-        <div className="col card hoverable s10 pull-s1 m6 pull-m3 l4 pull-l4">
+        <div className="col s10 pull-s1 m6 pull-m3 l4 pull-l4 z-depth-3">
           <form>
             <div className="card-content">
               <div className="row">
                 <h4 className=" signClass">Sign Up</h4>
-                <div className="input-field col s12">
-                  <i className="material-icons prefix blue-text text-lighten-3">
+                <div className="input-field col s12 signupInput">
+                  <i className="material-icons prefix blue-text text-darken-2">
                     account_circle
                   </i>
                   <label htmlFor="name">Name</label>
@@ -56,11 +56,10 @@ const Signup = () => {
                     autoComplete="off"
                     type="text"
                     value={name}
-                    className="grey-text text-lighten-3"
                   />
                 </div>
-                <div className="input-field col s12">
-                  <i className="material-icons prefix blue-text text-lighten-3">
+                <div className="input-field col s12 signupInput">
+                  <i className="material-icons prefix blue-text text-darken-2">
                     email
                   </i>
                   <label htmlFor="email"> Email </label>
@@ -72,8 +71,8 @@ const Signup = () => {
                     id="email"
                   />
                 </div>
-                <div className="input-field col s12">
-                  <i className="material-icons prefix blue-text text-lighten-3">
+                <div className="input-field col s12 signupInput">
+                  <i className="material-icons prefix blue-text text-darken-2">
                     lock
                   </i>
                   <label htmlFor="password">Password </label>
@@ -90,7 +89,7 @@ const Signup = () => {
             <div className=" center">
               <button
                 type="submit"
-                className="btn cyan darken-2 mb-4 "
+                className="btn blue darken-2 mb-4 "
                 onClick={clickSubmit}
               >
                 Sign up

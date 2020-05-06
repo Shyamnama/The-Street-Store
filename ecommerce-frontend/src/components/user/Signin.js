@@ -39,33 +39,31 @@ const Signin = () => {
   const signInForm = () => {
     return (
       <div className="valign-wrapper row login-box">
-        <div className="col card small hoverable s10 pull-s1 m6 pull-m3 l4 pull-l4">
+        <div className="col s10 pull-s1 m6 pull-m3 l4 pull-l4 z-depth-3">
           <form>
             <div className="card-content">
               <div className="row">
                 <h4 className=" signClass">Sign in</h4>
-                <div className="input-field col s12">
-                  <i className="material-icons prefix blue-text text-lighten-3">
+                <div className="input-field col s12 signinInput">
+                  <i className="material-icons prefix blue-text text-darken-2">
                     email
                   </i>
                   <label htmlFor="email"> Email </label>
                   <input
                     onChange={handleChange('email')}
                     type="email"
-                    className="validate grey-text text-lighten-3"
                     name="email"
                     id="email"
                   />
                 </div>
-                <div className="input-field col s12">
-                  <i className="material-icons prefix blue-text text-lighten-3">
+                <div className="input-field col s12 signinInput">
+                  <i className="material-icons prefix blue-text text-darken-2">
                     lock
                   </i>
                   <label htmlFor="password">Password </label>
                   <input
                     onChange={handleChange('password')}
                     type="password"
-                    className="validate grey-text text-lighten-3"
                     name="password"
                     id="password"
                   />
@@ -75,7 +73,7 @@ const Signin = () => {
             <div className=" center">
               <button
                 type="submit"
-                className="btn cyan darken-2 mb-4  "
+                className="btn blue darken-2 mb-4  "
                 onClick={clickSubmit}
               >
                 Log in

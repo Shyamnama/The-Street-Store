@@ -100,7 +100,7 @@ const Orders = () => {
                 <div key={oIndex}>
                   <ul className="collection with-header">
                     <li className="collection-header">
-                      <h5 className="home center">Order ID: {o._id} </h5>
+                      <h5 className="orderId center">Order ID: {o._id} </h5>
                     </li>
                     <li className="collection-item">{showStatus(o)}</li>
                     <li className="collection-item">
@@ -122,7 +122,7 @@ const Orders = () => {
                   </h4>
 
                   {o.products.map((p, pIndex) => (
-                    <div className="card  white-text hoverable">
+                    <div className=" hoverable">
                       <div
                         className="mb-4"
                         key={pIndex}

@@ -11,7 +11,7 @@ const adminDashboard = () => {
   const adminLinks = () => {
     return (
       <ul className="collection with-header">
-        <li className=" teal grey-text text-darken-3 collection-header">
+        <li className=" grey-text text-lighten-3 collection-header">
           <h5>
             <i className="small material-icons right">link</i>
             Admin Links
@@ -49,7 +49,7 @@ const adminDashboard = () => {
   const adminInfo = () => {
     return (
       <ul className="collection with-header">
-        <li className=" teal grey-text text-darken-3 collection-header">
+        <li className=" teal grey-text text-lighten-3 collection-header">
           <h5>
             Admin Information
             <i className="small material-icons left">account_circle</i>
