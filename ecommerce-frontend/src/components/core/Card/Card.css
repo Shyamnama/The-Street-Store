@@ -1,7 +1,6 @@
 .card {
   border-radius: 4px;
-  background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #586870 74%);
+  background: linear-gradient(315deg, #000000 10%, #586870 75%);
 }
 
 .product-para {
