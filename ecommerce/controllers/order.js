@@ -1,4 +1,4 @@
-const { Order, CartItem } = require('../models/order');
+const { Order } = require('../models/order');
 const { errorHandler } = require('../helpers/dbErrorHandler');
 
 exports.orderById = (req, res, next, id) => {
@@ -7,7 +7,7 @@ exports.orderById = (req, res, next, id) => {
     .exec((err, order) => {
       if (err || !order) {
         return res.status(400).json({
-          error: errorHandler(err)
+          error: errorHandler(err),
         });
       }
       req.order = order;
@@ -22,7 +22,7 @@ exports.create = (req, res) => {
   order.save((error, data) => {
     if (error) {
       return res.status(400).json({
-        error: errorHandler(error)
+        error: errorHandler(error),
       });
     }
     res.json(data);
@@ -36,7 +36,7 @@ exports.listOrders = (req, res) => {
     .exec((err, orders) => {
       if (err) {
         return res.status(400).json({
-          error: errorHandler(err)
+          error: errorHandler(err),
         });
       }
       res.json(orders);
@@ -54,7 +54,7 @@ exports.updatOrderStatus = (req, res) => {
     (err, order) => {
       if (err) {
         return res.status(400).json({
-          error: errorHandler(err)
+          error: errorHandler(err),
         });
       }
       res.json(order);
