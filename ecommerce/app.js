@@ -11,7 +11,7 @@ require('dotenv').config();
 const authRoute = require('./routes/auth');
 const userRoute = require('./routes/user');
 const categoryRoute = require('./routes/category');
-const productRoute = require('./routes/product');
+const productRoute = require('./routes/products');
 const braintreeRoute = require('./routes/braintree');
 const orderRoute = require('./routes/order');
 
