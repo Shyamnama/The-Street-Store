@@ -41,35 +41,34 @@ const Signin = () => {
       <div className="valign-wrapper row login-box">
         <div className="col s10 pull-s1 m6 pull-m3 l4 pull-l4 z-depth-3">
           <form>
-            <div className="card-content">
-              <div className="row">
-                <h4 className=" signClass">Sign in</h4>
-                <div className="input-field col s12 signinInput">
-                  <i className="material-icons prefix blue-text text-darken-2">
-                    email
-                  </i>
-                  <label htmlFor="email"> Email </label>
-                  <input
-                    onChange={handleChange('email')}
-                    type="email"
-                    name="email"
-                    id="email"
-                  />
-                </div>
-                <div className="input-field col s12 signinInput">
-                  <i className="material-icons prefix blue-text text-darken-2">
-                    lock
-                  </i>
-                  <label htmlFor="password">Password </label>
-                  <input
-                    onChange={handleChange('password')}
-                    type="password"
-                    name="password"
-                    id="password"
-                  />
-                </div>
+            <div className="row">
+              <h4 className=" signClass">Sign in</h4>
+              <div className="input-field col s12 signinInput ">
+                <i className="material-icons prefix blue-text text-darken-2">
+                  email
+                </i>
+                <label htmlFor="email"> Email </label>
+                <input
+                  onChange={handleChange('email')}
+                  type="email"
+                  name="email"
+                  id="email"
+                />
+              </div>
+              <div className="input-field col s12 signinInput">
+                <i className="material-icons prefix blue-text text-darken-2">
+                  lock
+                </i>
+                <label htmlFor="password">Password </label>
+                <input
+                  onChange={handleChange('password')}
+                  type="password"
+                  name="password"
+                  id="password"
+                />
               </div>
             </div>
+
             <div className=" center">
               <button
                 type="submit"
