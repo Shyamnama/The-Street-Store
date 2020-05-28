@@ -116,7 +116,9 @@ const Details = ({
       <div className="col s12 m6 l7">
         {shouldRedirect(redirect)}
         <span className="card-title2">{product.name}</span>
-        <p className="product-desc2">{product.description}</p>
+        <div className="product-desc2">
+          <blockquote>{product.description}</blockquote>
+        </div>
         <p className="product-para2">{product.price} Rs.</p>
         <div className="line2">
           <p className="grey-text text-darken-4 cate2">
