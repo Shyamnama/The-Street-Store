@@ -43,7 +43,7 @@ const Home = () => {
     <div>
       <Layout title="The Street Store" description="">
         <Search />
-        <div className="singlePro">
+        <section className="singlePro">
           <h4 className="home">Best Sellers</h4>
           <div className="row">
             {productBySell.map((product, i) => {
@@ -54,8 +54,13 @@ const Home = () => {
               );
             })}
           </div>
+        </section>
 
+        <section>
           <CarouselImage />
+        </section>
+
+        <section className="singlePro">
           <h4 className=" home">New Arrivals</h4>
           <div className="row">
             {productByArrival.map((product, i) => {
@@ -66,7 +71,7 @@ const Home = () => {
               );
             })}
           </div>
-        </div>
+        </section>
       </Layout>
     </div>
   );

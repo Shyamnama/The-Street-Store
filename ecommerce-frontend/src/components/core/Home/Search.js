@@ -97,15 +97,14 @@ const Search = () => {
             </select>
             <div className="input-field col s9 black-text input-search">
               <input
-                className="browserDefault"
                 id="input"
                 onChange={handleChange('search')}
                 type="text"
                 autoComplete="off"
               />
-              <label className=" inpt" htmlFor="input">
+              <label className="inpt" htmlFor="input">
                 <i
-                  class="blue-grey-text text-darken-2 material-icons left"
+                  className="blue-grey-text text-darken-2 material-icons left"
                   onClick={searchSubmit}
                 >
                   search

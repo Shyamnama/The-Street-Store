@@ -33,17 +33,13 @@ const Menu = ({ history }) => {
             </Link>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li>
-                <Link
-                  className="waves-effect waves-dark"
-                  to="/"
-                  style={isActive(history, '/')}
-                >
+                <Link className="" to="/" style={isActive(history, '/')}>
                   Home
                 </Link>
               </li>
               <li>
                 <Link
-                  className=" waves-effect waves-dark"
+                  className=" "
                   to="/shop"
                   style={isActive(history, '/shop')}
                 >
@@ -53,12 +49,12 @@ const Menu = ({ history }) => {
 
               <li>
                 <Link
-                  className="waves-effect waves-dark cart"
+                  className=" cart"
                   to="/cart"
                   style={isActive(history, '/cart')}
                 >
                   Cart
-                  <i className="small material-icons">shopping_cart</i>
+                  <i className="tiny material-icons prefix">shopping_cart</i>
                   <small className="cart-badge">[{itemTotal()}]</small>
                 </Link>
               </li>
@@ -66,7 +62,7 @@ const Menu = ({ history }) => {
               {isAuthenticate() && isAuthenticate().user.role === 0 && (
                 <li>
                   <Link
-                    className="waves-effect waves-dark"
+                    className=""
                     to="/user/dashboard"
                     style={isActive(history, '/user/dashboard')}
                   >
@@ -78,7 +74,7 @@ const Menu = ({ history }) => {
               {isAuthenticate() && isAuthenticate().user.role === 1 && (
                 <li>
                   <Link
-                    className="waves-effect waves-dark"
+                    className=""
                     to="/admin/dashboard"
                     style={isActive(history, '/admin/dashboard')}
                   >
@@ -91,7 +87,7 @@ const Menu = ({ history }) => {
                 <Fragment>
                   <li>
                     <Link
-                      className="waves-effect waves-dark"
+                      className=""
                       to="/signin"
                       style={isActive(history, '/signin')}
                     >
@@ -100,7 +96,7 @@ const Menu = ({ history }) => {
                   </li>
                   <li>
                     <Link
-                      className="waves-effect waves-dark"
+                      className=""
                       to="/signup"
                       style={isActive(history, '/signup')}
                     >
@@ -114,7 +110,7 @@ const Menu = ({ history }) => {
                   <li>
                     <Link
                       to="/signin"
-                      className=" signout waves-effect waves-dark"
+                      className=" signout "
                       onClick={() => signout(() => {})}
                     >
                       Signout

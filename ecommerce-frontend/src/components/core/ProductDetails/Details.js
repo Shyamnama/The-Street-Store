@@ -110,10 +110,10 @@ const Details = ({
 
   return (
     <div className="row ">
-      <div className="col s12 m6 l4">
+      <div className="col s12 m6 l4 ">
         <DetailImage item={product} url="product" />
       </div>
-      <div className="col s12 m6 l8">
+      <div className="col s12 m6 l7">
         {shouldRedirect(redirect)}
         <span className="card-title2">{product.name}</span>
         <p className="product-desc2">{product.description}</p>
@@ -121,15 +121,16 @@ const Details = ({
         <div className="line2">
           <p className="grey-text text-darken-4 cate2">
             Category :
-            <span className=" blue-grey-text text-darken-2">
+            <span
+              className=" blue-grey-text text-darken-4
+            "
+            >
               {product.category && product.category.name}
             </span>
           </p>
           <span className="cate3 ">{showGrades(displayGrades)}</span>
         </div>
-        <p className="grey-text text darken-4 cate2">
-          Added {moment(product.createdAt).fromNow()}
-        </p>
+        <p className=" cate2">Added {moment(product.createdAt).fromNow()}</p>
         <div className="mb-4">{showStock(product.quantity)}</div>
         {showAddToCartButton(addToCartButton)}
         {showViewButton(showViewProductButton)}

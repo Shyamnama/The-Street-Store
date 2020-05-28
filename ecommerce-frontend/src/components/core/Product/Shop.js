@@ -13,7 +13,7 @@ const Shop = () => {
   const [categories, setCategories] = useState([]);
   const [error, setError] = useState(false);
   // eslint-disable-next-line
-  const [limit, setLimit] = useState(9);
+  const [limit, setLimit] = useState(12);
   const [skip, setSkip] = useState(0);
   const [size, setSize] = useState(0);
   const [filteredResults, setFilteredResults] = useState([]);
@@ -104,7 +104,7 @@ const Shop = () => {
   return (
     <div>
       <Layout title="" description="Our Products" className="shop">
-        <div className="cat col s5 m4 l3 z-depth-3 ">
+        <div className="cat col s5 m4 l2 z-depth-3 ">
           <div className="catHead">Categories</div>
           <ul className="ml">
             <Checkbox
@@ -113,17 +113,17 @@ const Shop = () => {
             />
           </ul>
           <div className="catHead">Price</div>
-          <div className="mb ml">
+          <div className="mb ml price">
             <PriceRange
               handleFilters={(filters) => handleFilters(filters, 'price')}
               prices={prices}
             />
           </div>
         </div>
-        <div className="pro col s7 m8 l9">
+        <div className="pro col s7 m8 l10">
           {filteredResults.map((product, i) => {
             return (
-              <div key={i} className=" col s12 m6 l4">
+              <div key={i} className=" col s12 m6 l3">
                 <Card product={product} />
               </div>
             );

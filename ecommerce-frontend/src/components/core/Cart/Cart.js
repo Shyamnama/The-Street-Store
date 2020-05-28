@@ -45,7 +45,6 @@ const Cart = () => {
         </h3>
         <Link className="continue " to="/shop">
           Continue Shopping...
-          <i className="material-icons left">shopping_basket</i>
         </Link>
       </div>
     );
@@ -61,11 +60,11 @@ const Cart = () => {
         <div className="container">
           <h3 className="mb-4 orderHead center">Your Cart Summary</h3>
           <hr />
-          <div className=" col s12 m6 l5">
+          <div className=" col s12 m6 l4">
             {items.length > 0 ? showItems(items) : noItemMessage()}
           </div>
 
-          <div className="col s12 m6 l7">
+          <div className="col s12 m6 l8">
             <Checkout products={items} setRun={setRun} run={run} />
           </div>
         </div>

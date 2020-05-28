@@ -1,17 +1,16 @@
 .head2 {
   font-family: 'Bangers', cursive;
   font-weight: 800;
-  text-transform: capitalize;
   text-align: center;
-  letter-spacing: 4px;
-  font-size: 70px;
+  letter-spacing: 2px;
+  font-size: 50px;
   color: #3d3c3c;
 }
 
 .para {
-  font-family: sans-serif;
+  font-family: 'Bungee Inline', cursive;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   color: #3d3d3dfb;
   font-weight: bold;
 }
@@ -30,18 +29,18 @@
 
 .foot-title {
   font-family: 'Comfortaa', cursive;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
 }
 
 .foot-para {
   font-family: 'Montserrat', sans-serif;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .links {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   color: #e6e6e6;
 }
 

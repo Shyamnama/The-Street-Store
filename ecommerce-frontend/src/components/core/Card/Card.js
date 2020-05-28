@@ -41,7 +41,7 @@ const Card = ({
     return (
       addToCartButton && (
         <div onClick={addToCart} className="hoverable addCart ">
-          <i className="material-icons prefix">add_shopping_cart</i>
+          <i className="tiny material-icons prefix">add_shopping_cart</i>
           Add To Cart
         </div>
       )
