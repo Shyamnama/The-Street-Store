@@ -1,0 +1,221 @@
+.card {
+  border-radius: 4px;
+  background-image: linear-gradient(
+      216deg,
+      #4d4d4d0d 0%,
+      #4d4d4d0d 25%,
+      #2a2a2a0d 25%,
+      #2a2a2a0d 38%,
+      #dfdfdf0d 38%,
+      #dfdfdf0d 75%,
+      #2424240d 75%,
+      #2424240d 100%
+    ),
+    linear-gradient(
+      44deg,
+      #8080800d 0%,
+      #8080800d 34%,
+      #d4d4d40d 34%,
+      #d4d4d40d 57%,
+      #1919190d 57%,
+      #1919190d 89%,
+      #8787870d 89%,
+      #8787870d 100%
+    ),
+    linear-gradient(
+      241deg,
+      #3737370d 0%,
+      #3737370d 14%,
+      #d1d1d10d 14%,
+      #d1d1d10d 60%,
+      #f5f5f50d 60%,
+      #f5f5f50d 69%,
+      #a4a4a40d 69%,
+      #a4a4a40d 100%
+    ),
+    linear-gradient(
+      249deg,
+      #f8f8f80d 0%,
+      #f8f8f80d 32%,
+      #9494940d 32%,
+      #9494940d 35%,
+      #cacaca0d 35%,
+      #cacaca0d 51%,
+      #b5b5b50d 51%,
+      #b5b5b50d 100%
+    ),
+    linear-gradient(92deg, #1c1c1c, #1c1c1c);
+}
+
+.product-para {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 12px;
+  color: #dadada;
+  font-weight: 600;
+  min-width: 6rem;
+  letter-spacing: 1px;
+}
+
+.card .card-content {
+  padding: 10px;
+  filter: drop-shadow(5px 5px 4px #0a0a0a);
+}
+
+.card .card-title {
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 800;
+  text-align: left;
+  color: #dbdfdf;
+}
+
+.addCart {
+  font-family: 'Montserrat', sans-serif;
+  color: #b8b7b7;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 13px 0px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 4px;
+}
+
+.addCart:hover {
+  background-color: #0beef9;
+  background-image: linear-gradient(315deg, #0beef9 0%, #48a9fe 74%);
+  color: #292828;
+  cursor: pointer;
+  letter-spacing: 2px;
+  border: none;
+  transition: 0.3s ease;
+  outline: none;
+  border-radius: 4px;
+}
+
+.viewProduct {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #b8b7b7;
+  font-weight: 800;
+  font-size: 10px;
+  padding: 13px 0px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 4px;
+}
+
+.viewProduct:hover {
+  background-color: #fc9842;
+  background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
+  color: #292828;
+  cursor: pointer;
+  letter-spacing: 2px;
+  border: none;
+  transition: 0.3s ease;
+  border-radius: 4px;
+  outline: none;
+}
+
+.badge {
+  font-family: 'Kanit', sans-serif;
+  color: #a5a3a1;
+  min-width: 5rem;
+  text-align: left;
+  font-size: 12px;
+}
+
+.quantity {
+  padding: 0 13px;
+}
+
+.quan2 {
+  padding-top: 10px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.qn {
+  font-family: 'Comfortaa', cursive;
+  color: #a0a0a0;
+  font-size: 12px;
+}
+
+.num {
+  margin-top: -15px;
+}
+
+.cate {
+  padding-top: 2px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+  font-size: 12px;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 16px 0 4px;
+}
+
+.stock {
+  text-align: left;
+}
+
+.star-rating {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.star {
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  background-color: #a0a0a0;
+  -webkit-clip-path: polygon(
+    50% 0%,
+    63% 38%,
+    100% 38%,
+    69% 59%,
+    82% 100%,
+    50% 75%,
+    18% 100%,
+    31% 59%,
+    0% 38%,
+    37% 38%
+  );
+  clip-path: polygon(
+    50% 0%,
+    63% 38%,
+    100% 38%,
+    69% 59%,
+    82% 100%,
+    50% 75%,
+    18% 100%,
+    31% 59%,
+    0% 38%,
+    37% 38%
+  );
+}
+
+.star.selected {
+  background-color: #01b7ff;
+}
+
+.grade {
+  padding-top: 5px;
+  font-family: 'Montserrat', sans-serif;
+  color: #939394;
+  font-size: 11px;
+  flex-basis: 100%;
+}
